@@ -34,6 +34,7 @@
     "url": "http://github.com/ttezel/twit.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail --globals domain,_events,_maxListeners"
+    "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail --globals domain,_events,_maxListeners",
+    "start": "node rtd3.js"
   }
 }
