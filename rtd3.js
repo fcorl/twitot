@@ -2,7 +2,7 @@
 //  RTD2 - Twitter bot that tweets about the most popular github.com news
 //  Also makes new friends and prunes its followings.
 //
-var Bot = require('twit/examples/bot') , config1 = require('twit/examples/config');
+var Bot = require('./twit/examples/bot.js') , config1 = require('./twit/examples/config.js');
 
 var bot = new Bot(config1);
 
