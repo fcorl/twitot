@@ -2,7 +2,7 @@ var Bot = require('./twit/examples/bot.js') , config1 = require('./twit/examples
 
 var bot = new Bot(config1);
 
-console.log('RTD3: Running.');
+console.log(' Running.');
 
 //get date string for today's date (e.g. '2011-01-01')
 function datestring () 
